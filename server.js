@@ -35,7 +35,7 @@ app.get("/", function (req, res) {
 });
 
 // Create a server to listen at port 8080
-const server = app.listen(8081, function () {
+const server = app.listen(8080, function () {
   const host = server.address().address;
   const port = server.address().port;
   console.log(`REST API demo app listening at http://${host}:${port}`);
